@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navigation{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 1, 20);
+    padding: 15px 20px;
+}
+.navigation .nav_logo h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 20px;
+
+}
+.nav_links ul li{
+    margin-right: 50px;
+    list-style: none;
+    display: inline;;
+}
+
+.nav_links ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.hero-section{
+    background: url("hero_image.png");
+    height: 1024px;
+    width: 1440px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_section_text{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 50%;
+}
+.hero_section_text h1{
+   font-size: 60px;
+   font-weight: 600;
+}
+
+
+
+.hero_section_text h4{
+    margin-top: 20px;
+   font-size: 30px;
+   font-weight: 600;
+}
+.hero-section p{
+    font-size: 20px;
+    margin: 40px 200px;
+    text-align: justify;
+}
+.middle_section{
+    height: 806px;
+    width: 1440px;
+    background-color: #281154;
+    position: absolute;
+}
+
+.middle_scetion_icon{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 45%;
+}
+
+.middle_scetion_h3{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: 15%;
+    left:20% ;
+    margin-top: 10px;
+}
+
+.middle_scetion_p1{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 17%;
+    margin:0 200px ;
+    text-align: justify;
+}
+.btn{
+    display: inline-block;
+    position: relative;
+    top: 22%;
+    left: 36%; 
+}
+.btn button{
+    cursor: pointer;
+    padding: 15px 40px;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    box-shadow: 3px 3px 7px white,
+                -3px -3px 7px white ;
+}
+
+.middle_scetion_p2{
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 30%;
+    text-align: justify;
+
+}
+
+.middle-secetion_image{
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    left: 17%;
+}
+
+.read_more_section{
+    height: 2320px;
+    width: 1440px;
+}
+.read_more_section .read_more_section_h3{
+    display: inline-block;
+    position: relative;
+    top: 53%;
+    left: 20%;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #353131;
+}
+
+.read_more_section .read_more_section_p{
+    display: inline-block;
+    position: relative;
+    top: 54%;
+    margin:0px 200px;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: justify;
+    color: #353131;
+}
+
+.read_more_section .read_more-btn{
+      display: inline-block;
+      position: relative;
+      top: 32%;
+      left: 40%;
+}
+
+.read_more-btn button{
+    padding: 15px 30px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #281154;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 3px 3px 7px rgb(105, 83, 83),
+    -3px -3px 7px rgb(105, 83, 83) ;
+}
+
+.read_more_section .read_more_section_image{
+    display: inline-block;
+    position: relative;
+    top: 60%;
+    right: 4%;
+}
+.video_section video{
+    width: 1440px;
+    height: auto;
+}
+
+.giftcard_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: end;
+    margin-top: 100px;
+    height: 600px;
+}
+
+.giftcard_section .giftcard_section_text{
+    margin-left: 80px;
+}
+
+.giftcard_section .giftcard_section_text h1{
+    padding-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #353131;
+}
+
+.giftcard_section .giftcard_section_text p{
+    font-size: 20px;
+    font-weight: bolder;
+    color: #353131;
+    margin: 20px 25px;
+    text-align: justify;
+}
+.footer_section{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0DB;
+    padding: 100px 20px;
+}
+
+.footer_section .shop_learn{
+    margin-left: 20px;
+}
+.footer_section .shop_learn h1{
+    color:#353131;
+}
+
+.footer_section .shop_learn li{
+    list-style: none;
+}
+.footer_section .shop_learn li a{
+    text-decoration: none;
+    font-size:20px ;
+    margin-top: 10px;
+}
+
+.footer_section .orange_store{
+    margin-left: 20px;
+}
+.footer_section .orange_store h1{
+    color:#353131;
+}
+
+.footer_section .orange_store li{
+    list-style: none;
+}
+.footer_section .orange_store li a{
+    text-decoration: none;
+    font-size:20px ;
+    margin-top: 10px;
+}
+
+.footer_section .Education_Business{
+    margin-left: 20px;
+}
+.footer_section .Education_Business h1{
+    color:#353131;
+}
+
+.footer_section .Education_Business li{
+    list-style: none;
+}
+.footer_section .Education_Business li a{
+    text-decoration: none;
+    font-size:20px ;
+    margin-top: 10px;
+}
+
+.footer_section .About_Orange{
+    margin-right: 20px;
+}
+.footer_section .About_Orange h1{
+    color:#353131;
+}
+
+.footer_section .About_Orange li{
+    list-style: none;
+}
+.footer_section .About_Orange li a{
+    text-decoration: none;
+    font-size:20px ;
+    margin-top: 10px;
+}
+.footer_section .follow_us_section{
+    margin-right: 20px;
+}
+.footer_section .follow_us_section h1{
+    color:#353131;
+}
+
+.footer_section .follow_us_section .bxl-facebook-square{
+    font-size: 45px;
+    color: #4267B2;
+}
+.footer_section .follow_us_section .bxl-youtube{
+    font-size: 45px;
+    color: red;
+    
+}
+
+.footer_section .follow_us_section .bxl-twitter{
+    font-size: 45px;
+    color: #00acee; 
+}
+.copy_right_section{
+    text-align: center;
+    background-color:#FFF0DB;
+}
+
+.copy_right_section h1{
+    font-size: 30px;
+    color: #353131;
+}
+.copy_right_section .desinger_idea span{
+    font-size: 30px;
+    color: #353131;
+}
+.copy_right_section .desinger_idea a{
+    display: inline-block;
+    margin-bottom:80px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+
+
+
